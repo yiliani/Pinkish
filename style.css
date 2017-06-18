@@ -1,0 +1,236 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+a, abbr, address, article, aside, audio, b, blockquote, body, canvas, 
+caption, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset,
+figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup,
+html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, 
+object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, 
+sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  font-family: 'Lobster', sans-serif;
+}
+
+section .container {
+	margin-top: 70px;
+	padding-left: 16.66%; 
+	padding-right: 16.66%;
+}
+
+.parallax {
+	  /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1426840963626-ffdf2d7ef80b?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=60&cs=tinysrgb&crop=&bg=");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header > ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	width: 100%;
+}
+
+header > ul > li {
+	width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+	font-size: 26px;
+	font-weight: 500;
+	padding: 5px;
+	margin: 5px;
+	border-bottom: 2px #1E222A solid;
+
+}
+
+header > ul > li > a:link {
+    text-decoration: none;
+    color: #4F6896;
+}
+
+header > ul > li > a:visited {
+    text-decoration: none;
+    color: #4F6896;
+}
+
+.circle {
+	border: 1px #1E222A solid;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 70px;
+	background-color: #1E222A;
+	opacity: 0.7;
+	color: #4F6896;
+}
+
+.circle p {
+	font-size: 26px;
+	text-align: center;
+	font-weight: 500;
+	line-height: 200px;
+}
+
+.icon-centr {
+	margin: 0 auto;
+}
+
+.col-4 p {
+	font-size: 16px;
+	padding: 15px;	
+}
+
+.col-4 h5 {
+	font-size: 20px;
+	padding: 15px;	
+}
+
+.col-4 i {
+	font-size: 90px; 
+	color: #1E222A;
+	padding-bottom: 1rem;
+}
+
+.row:before, 
+.row:after {
+	content:"";
+	display: table;
+	clear: both;
+ }
+ 
+[class*="col-"] {
+ 	float: left;
+ 	text-align: center;
+ }
+
+.gallery {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.gallery p {
+	text-align: center;
+	font-size: 28px;
+	color: #1E222A;
+	margin-bottom: 30px;
+}
+
+.image {
+	height: 200px;
+	background-size: cover;
+	background-position: center center;
+	margin: 2px;
+}
+
+.image1 {
+	background-image: url(https://images.unsplash.com/photo-1486910968637-e6203a8a3455?dpr=1&auto=format&fit=crop&w=600&h=200&q=50&cs=tinysrgb&crop=&bg=);
+}
+
+.image2 {
+    background-image: url(https://images.unsplash.com/40/whtXWmDGTTuddi1ncK5v_IMG_0097.jpg?dpr=1&auto=format&fit=crop&w=600&h=200&q=50&cs=tinysrgb&crop=&bg=);
+}
+
+.image3 {
+    background-image: url(https://images.unsplash.com/photo-1495347858443-047a7ad0aa15?dpr=1&auto=format&fit=crop&w=600&h=200&q=50&cs=tinysrgb&crop=&bg=);
+}
+
+.image4 {
+	background-image: url(https://images.unsplash.com/photo-1488380779812-754cf454af24?dpr=1&auto=format&fit=crop&w=600&h=200&q=50&cs=tinysrgb&crop=&bg=);
+}
+
+.image5 {
+    background-image: url(https://images.unsplash.com/photo-1489537235181-fc05daed5805?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=50&cs=tinysrgb&crop=&bg=);
+}
+
+.image6 {
+	    background-image: url(https://images.unsplash.com/photo-1494088644719-c75cad020cff?dpr=1&auto=format&fit=crop&w=600&h=200&q=50&cs=tinysrgb&crop=&bg=);
+}
+
+.social .col-6 h3 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: #1E222A;
+}
+
+.col-6 {
+    margin: 24px;
+}
+
+.social .col-6 p {
+	text-align: center;
+	color: #1E222A;
+}
+
+.social i.fa {
+	color: #1E222A;
+	font-size: 28px;
+	text-align: center;
+	height: 20px;
+	padding: 3px;
+	margin-right: 5px;
+	margin-bottom: 100px;
+	display: inline-block;
+}
+
+.col-12 p {
+	font-size: 20px;
+	color: #4F6896;
+	margin-bottom: 15px;
+}
+
+.skype-btn {
+	display: flex;
+  	justify-content: center;
+  	margin-top: 70px;
+}
+
+button {
+	background-color: #1E222A; 
+    border: none;
+    color: #4F6896;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Lobster';
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #756E8E;
+    color: #1E222A;
+    font-family: 'Lobster';
+}
+
+
+.col-1 {width: 8.33%;} 
+.col-2 {width: 16.66%;} 
+.col-3 {width: 25%;} 
+.col-4 {width: 32.9%;} 
+.col-5 {width: 41.66%;} 
+.col-6 {width: 45%;} 
+.col-7 {width: 58.33%;} 
+.col-8 {width: 66.66%;} 
+.col-9 {width: 75%;} 
+.col-10 {width: 83.33%;} 
+.col-11 {width: 91.66%;} 
+.col-12 {width: 100%;}
