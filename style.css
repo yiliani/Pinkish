@@ -66,6 +66,9 @@ header > ul > li > a:visited {
     text-decoration: none;
     color: #4F6896;
 }
+header > ul > li > a:hover {
+	filter: invert(100%);
+}
 
 .circle {
 	border: 1px #1E222A solid;
@@ -78,6 +81,10 @@ header > ul > li > a:visited {
 	opacity: 0.7;
 	color: #4F6896;
 }
+
+/*.circle:hover {
+	filter: invert(100%);
+}*/
 
 .circle p {
 	font-size: 26px;
@@ -134,7 +141,7 @@ header > ul > li > a:visited {
 	height: 200px;
 	background-size: cover;
 	background-position: center center;
-	margin: 2px;
+	border: 2px solid #1E222A;
 }
 
 .image1 {
@@ -171,7 +178,7 @@ header > ul > li > a:visited {
 }
 
 .col-6 {
-    margin: 24px;
+    padding: 24px;
 }
 
 .social .col-6 p {
@@ -216,21 +223,31 @@ button {
 }
 
 button:hover {
-    background-color: #756E8E;
-    color: #1E222A;
+    filter: invert(100%);
     font-family: 'Lobster';
 }
-
 
 .col-1 {width: 8.33%;} 
 .col-2 {width: 16.66%;} 
 .col-3 {width: 25%;} 
 .col-4 {width: 32.9%;} 
 .col-5 {width: 41.66%;} 
-.col-6 {width: 45%;} 
+.col-6 {width: 44.9%;} 
 .col-7 {width: 58.33%;} 
 .col-8 {width: 66.66%;} 
 .col-9 {width: 75%;} 
 .col-10 {width: 83.33%;} 
 .col-11 {width: 91.66%;} 
 .col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .image {
+    	border: none;
+    	margin: 2px;
+    }
+}
